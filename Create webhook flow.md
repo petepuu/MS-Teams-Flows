@@ -26,9 +26,9 @@
    <br>
 
 5. Configure the trigger by selecting **When a Teams webhook request is received** and define who should be able to trigger the flow 
-    - Any user in my tenant
-    - Anyone
-    - Specific users in my tenant
+   - **Anyone** = Anonymous
+   - **Any user in my tenant** = All users of Microsoft 365 tenant
+   - **Specific users in my tenant** = User of same Microsoft 365 tenant you define. List of email addresses
   
       ![5-Configure trigger](images/conf-trigger.png "Configure trigger")
 
@@ -52,6 +52,18 @@
 
    <br>
 
+   - If you select **Flow bot**, then message will show like below in Teams channel
+  
+      ![8-Flow bot](images/flowbot-sample.png "Flow bot")
+
+      <br>
+   
+   - When using User option then messages are seen similarly if user posted message to channel in Microsoft Teams
+  
+      ![8-User](images/user-sample.png "User")
+
+      <br>
+
 9. Select do you want to post a message to either **Channel** or **Group chat**
     
    ![9-Post message in](images/post-msg-in.png "Select channel or group chat")
@@ -60,19 +72,19 @@
 
 10. Define team and channel or group chat depending which option you selected in the previous step
     
-    **Team and Channel**
+       - **Team and Channel**
 
-    ![10-Team and channel](images/post-team-channel.png "Select team and channel")
+          ![10-Team and channel](images/post-team-channel.png "Select team and channel")
 
-    <br>
+          <br>
 
-    **Group chat**
+       - **Group chat**
 
-    ![10-Group chat](images/post-group-chat.png "Select group chat")
+          ![10-Group chat](images/post-group-chat.png "Select group chat")
 
-    <br>
+          <br>
 
-11. Type-in message and if you want you can also set subject for the message
+11. Type-in message and if you want you can also set subject (only available when posting as User) for the message
     
     ![11-Message and subject](images/post-msgs-message.png "Message")
 
